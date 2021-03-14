@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -23,6 +44,30 @@ header {
     line-height: 54px;
 }
 
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    right: 1%;
+}
+
+.box {
+    text-align: right;
+}
+
+.navbar a {
+    background-color: gray;
+    margin-top: 2px;
+    padding: 0 5px 0 5px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+
 h2 {
     font-family: 'Patua One', cursive;
     font-style: normal;
@@ -32,15 +77,15 @@ h2 {
     color: #565656;
 }
 
-nav {
+.carousel {
     padding: 200px 0px 0px 200px;
 }
 
-nav p {
+.carousel p {
     padding-top: 10px;
 }
 
-nav button {
+.carousel button {
     text-decoration: none;
     margin-top: 20px;
     background-color: #E5E5E5;
@@ -51,8 +96,14 @@ nav button {
     width: 190px;
     height: 62px;
     transition-duration: 0.3s;
+    font-family: Poppins;
 }
 
-nav button:hover {
+.carousel button:hover {
     background-color: #848484;
+}
+
+.data {
+    text-align: center;
+    border: ;
 }
