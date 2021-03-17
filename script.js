@@ -8,4 +8,11 @@ window.onscroll = function() {
     } else {
         navbar.classList.remove('active');
     }
-} 
+} */
+
+$(document).ready(function(){
+    $('.slider').slick({
+      autoplay: false,
+      autoplaySpeed: 2500,
+    });
+  });
