@@ -24,5 +24,9 @@ $(document).ready(function(){
     $('.slider').slick({
       autoplay: false,
       autoplaySpeed: 2500,
+      adaptiveHeight: true,
+      slidesToShow: 1,
+      infinite: true,
+      arrows: false,
     });
   });

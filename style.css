@@ -30,7 +30,7 @@ body {
 
 header {
     color: #8C8C8C;
-    background: #F2F2F2;
+    position:absolute;
     margin: 0;
     padding: 0;
     padding-top: 15px;
@@ -79,10 +79,12 @@ h2 {
 
 .carousel {
     padding: 200px 0px 0px 200px;
+    display: block !important;
 }
 
 .carousel p {
     padding-top: 10px;
+    width: 20em;
 }
 
 .carousel button {
@@ -101,6 +103,11 @@ h2 {
 
 .carousel button:hover {
     background-color: #848484;
+}
+
+.slick-slide {
+    display: block;
+    float: left;
 }
 
 .data {
