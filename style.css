@@ -30,7 +30,8 @@ body {
 
 header {
     color: #8C8C8C;
-    position:absolute;
+    position: absolute;
+    z-index: 2;
     margin: 0;
     padding: 0;
     padding-top: 15px;
@@ -47,6 +48,7 @@ header {
 .navbar {
     overflow: hidden;
     position: fixed;
+    z-index: 1;
     top: 20%;
     right: 1%;
 }
@@ -85,6 +87,11 @@ h2 {
 .carousel p {
     padding-top: 10px;
     width: 20em;
+}
+
+.carousel img {
+    width: 100%;
+    position: relative;
 }
 
 .carousel button {

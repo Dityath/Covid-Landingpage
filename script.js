@@ -22,8 +22,8 @@ xmlhttp.send();
 
 $(document).ready(function(){
     $('.slider').slick({
-      autoplay: false,
-      autoplaySpeed: 2500,
+      autoplay: true,
+      autoplaySpeed: 5000,
       adaptiveHeight: true,
       slidesToShow: 1,
       infinite: true,
