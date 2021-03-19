@@ -1,15 +1,3 @@
-/* const navbar = document.querySelector('.navbar');
-
-window.onscroll = function() {
-    var top = window.scrollY;
-
-    if (top >= 75) {
-        navbar.classList.add('active');
-    } else {
-        navbar.classList.remove('active');
-    }
-} */
-
 let data;
 
 $.get("https://covid.aang.dev/api/covid", (data) => {
@@ -26,3 +14,36 @@ $(document).ready(function(){
       arrows: false,
     });
   });
+
+
+$(".btn1").mouseover(function(){
+    $(".box1").show("fast");
+});
+
+$(".btn1").mouseout(function(){
+    $(".box1").hide("fast");
+});
+
+$(".btn2").mouseover(function(){
+    $(".box2").show("fast");
+});
+
+$(".btn2").mouseout(function(){
+    $(".box2").hide("fast");
+});
+
+$(".btn3").mouseover(function(){
+    $(".box3").show("fast");
+});
+
+$(".btn3").mouseout(function(){
+    $(".box3").hide("fast");
+});
+
+$(".btn4").mouseover(function(){
+    $(".box4").show("fast");
+});
+
+$(".btn4").mouseout(function(){
+    $(".box4").hide("fast");
+});
