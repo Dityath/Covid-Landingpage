@@ -120,6 +120,7 @@ header {
 }
 
 .judul-data {
+    background-image: linear-gradient(rgb(137, 137, 137, 0.1), rgba(137, 137, 137, 0));
     padding-top: 8em;
 }
 

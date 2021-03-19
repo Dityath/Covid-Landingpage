@@ -1,7 +1,16 @@
-let data;
+$.get("https://covid.aang.dev/api/covid", function(data, status) {
 
-$.get("https://covid.aang.dev/api/covid", (data) => {
-        console.log(data);
+        data.forEach(dt => {
+            $("#kasus h3").append(
+                dt.positif
+            );
+            $("#sembuh h3").append(
+                dt.sembuh
+            );
+            $("#meninggal h3").append(
+                dt.meninggal
+            );
+        });
     });
 
 $(document).ready(function(){
