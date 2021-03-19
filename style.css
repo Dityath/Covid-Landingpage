@@ -70,7 +70,7 @@ header {
     font-size: 10px;
 }
 
-h2 {
+.judul-data h2 {
     font-family: 'Patua One', cursive;
     font-style: normal;
     font-weight: normal;
@@ -79,9 +79,25 @@ h2 {
     color: #565656;
 }
 
+.judul-data {
+    padding-top: 5em;
+}
+
+.judul-data h4 {
+    color: #565656;
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+}
+
+.judul-data h5 {
+    text-align: center;
+    font-size: 1em;
+    color: #8C8C8C;
+}
+
 .carousel {
     padding: 200px 0px 0px 200px;
-    display: block !important;
 }
 
 .carousel p {
@@ -89,9 +105,8 @@ h2 {
     width: 20em;
 }
 
-.carousel img {
+.slick-slide img {
     width: 100%;
-    position: relative;
 }
 
 .carousel button {
@@ -118,7 +133,7 @@ h2 {
 }
 
 .data {
-    margin: 60px 20px 10px 20px;
+    margin: 2em 2em 1em 2em;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -128,5 +143,5 @@ h2 {
 .main-box {
     display: flex;
     justify-content: space-around;
+    padding: 2em 0 1em 0;
 }
-
