@@ -141,15 +141,33 @@ header {
 }
 
 .data {
-    margin: 2em 2em 1em 2em;
+    margin: 4em 5em 1em 5em;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    padding: 10px;
+    padding: 2em;
 }
 
 .main-box {
     display: flex;
     justify-content: space-around;
     padding: 2em 0 1em 0;
+}
+
+.vaksin-article {
+    padding: 5em 5em 0 5em;
+}
+
+.vaksin-article h5 {
+    font-size: 2em;
+}
+
+.vaksin-article h6 {
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+.vaksin-article img {
+    margin: 1em 10% 2em 10%;
+    width: 80%;
 }
