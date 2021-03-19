@@ -106,7 +106,8 @@ header {
 }
 
 .slick-slide img {
-    width: 100%;
+    float: right;
+    max-height: 40em;
 }
 
 .carousel button {
