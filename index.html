@@ -24,21 +24,25 @@
             <a href="#">
                 Beranda
             </a>
+            <div class="navbar-btn" onclick="window.location.href='#'"></div>
         </div>
         <div class="box">
-            <a href="#">
-                Covid terkini
+            <a href="#data">
+                Data Covid
             </a>
+            <div class="navbar-btn" onclick="window.location.href='#data'"></div>
         </div>
         <div class="box">
-            <a href="#">
-                tambahan
+            <a href="#vaksin">
+                Vaksin
             </a>
+            <div class="navbar-btn"></div>
         </div>
         <div class="box">
-            <a href="#">
-                tambahan
+            <a href="#varian">
+                Varian Covid
             </a>
+            <div class="navbar-btn"></div>
         </div>
     </div>
 
@@ -49,7 +53,7 @@
             <div class="carousel">
                 <h2>Vaksin</h2>
                 <p>Merupakan bentuk pencegahan yang berfungsi mendorong pembentukan kekebalan tubuh spesifik pada penyakit COVID-19 agar terhindar dari tertular atau kemungkinan sakit berat.</p>
-                <button href="#">Selengkapnya</button>
+                <button onclick="window.location.href='#vaksin'">Selengkapnya</button>
             </div>
         </div>
         <div class="slick-slide">
@@ -57,13 +61,13 @@
             <div class="carousel">
                 <h2>COVID B117</h2>
                 <p>Velit viverra quisque tellus maecenas ut pharetra, donec. Id dignissim varius tellus leo nec, a, quis. Sit varius purus.</p>
-                <button href="#">Selengkapnya</button>
+                <button onclick="window.location.href='#varian'">Selengkapnya</button>
             </div>
         </div>
     </div>
 
     <!--judul data-->
-    <div class="judul-data">
+    <div id="data" class="judul-data">
         <h4>Data Corona Terkini</h4>
         <h5>Sumber data: KawalCorona</h5>
     </div>
@@ -90,17 +94,22 @@
         </div>
     </div class="data">
 
-    <div class="vaksin-article">
+    <div id="vaksin" class="div-article">
         <h5>Vaksin</h5>
-        <p>Vaksin COVID-19 merupakan bentuk pencegahan yang berfungsi mendorong pembentukan kekebalan tubuh spesifik pada penyakit COVID-19 agar terhindar dari tertular atau kemungkinan sakit berat. Vaksin COVID-19 merupakan bentuk pencegahan yang berfungsi mendorong pembentukan kekebalan tubuh spesifik pada penyakit COVID-19 agar terhindar dari tertular atau kemungkinan sakit berat.</p>
+        <p class="div-article-p">Vaksin COVID-19 merupakan bentuk pencegahan yang berfungsi mendorong pembentukan kekebalan tubuh spesifik pada penyakit COVID-19 agar terhindar dari tertular atau kemungkinan sakit berat. Vaksin COVID-19 merupakan bentuk pencegahan yang berfungsi mendorong pembentukan kekebalan tubuh spesifik pada penyakit COVID-19 agar terhindar dari tertular atau kemungkinan sakit berat.</p>
         
         <h6>Macam-macam Vaksin</h6>
         <img src="img/vaccine.png" alt="">
 
-        <div class="vaksin-box">
+        <div class="div-box">
             <b>FUN FACT : Indonesia Memiliki Vaksin Terbaik se-Asia Pasifik</b>
             <p>Dikutip dari laman idxchanel.com CEO Biofarma Honesty Basyir pada Rapat Rakornas yang disiarkan secara langsung melalui Chanel Youtube BNPB Indonesia mengatakan bahwa, “... Indonesia menjadi salah satu negara yang dipuji dalam sisi penyiapan vaksin. Bahkan di Asia Pasifik, Indonesia menjadi negara yang terbesar melakukan vaksinasi. Jadi ini sebagai suatu hal yang patut disyukuri”.</p>
         </div>
+    </div>
+
+    <div id="varian" class="div-article">
+        <h5>Varian COVID : B117</h5>
+        <p class="div-article-p">Varian COVID-19 B117 ini merupakan salah satu varian dari virus covid-19 yang sudah mengalami mutasi yang tersturktur. Menururu peniliti virus varian B117 ini memiliki tingkat penularan dan infeksi yang tinggi pada inangnya, namun varian ini tidak lebih berbahaya hanya saja tingkat penyebarannya sangat tinggi jika dibandingkan dengan varian lainnya.</p>
     </div>
 
     <!--Isi javascriptnya, cuma script-->
